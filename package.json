@@ -1,1 +1,13 @@
-
+{
+  "name": "bot-sd-ariege",
+  "version": "1.0.0",
+  "description": "Bot Discord SD Ariege",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3"
+  }
+}
